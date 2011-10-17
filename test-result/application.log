@@ -1,0 +1,182 @@
+17 Oct 2011 15:30:15,080 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:30:15,090 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:30:15,094 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:30:15,097 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:30:17,094 WARN  ~ 
+17 Oct 2011 15:30:17,094 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:17,094 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:17,095 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:17,111 WARN  ~ 
+17 Oct 2011 15:30:17,111 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@18c908b' disabled the plugin 'play.jobs.JobsPlugin@aa5b2d' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:30:17,112 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:30:24,523 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:30:24,528 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:30:24,531 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:30:24,534 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:30:24,722 WARN  ~ 
+17 Oct 2011 15:30:24,722 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:24,722 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:24,722 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:24,725 WARN  ~ 
+17 Oct 2011 15:30:24,725 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@18c908b' disabled the plugin 'play.jobs.JobsPlugin@dc8a29' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:30:24,726 WARN  ~ 
+17 Oct 2011 15:30:24,726 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:24,726 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:24,726 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:24,729 WARN  ~ 
+17 Oct 2011 15:30:24,730 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:30:34,061 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:30:34,067 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:30:34,069 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:30:34,072 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:30:34,237 WARN  ~ 
+17 Oct 2011 15:30:34,237 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:34,237 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:34,237 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:34,242 WARN  ~ 
+17 Oct 2011 15:30:34,242 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@18c908b' disabled the plugin 'play.jobs.JobsPlugin@36f29f' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:30:34,242 WARN  ~ 
+17 Oct 2011 15:30:34,242 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:34,242 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:34,242 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:34,244 WARN  ~ 
+17 Oct 2011 15:30:34,244 WARN  ~ 
+17 Oct 2011 15:30:34,244 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:34,244 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:34,244 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:34,246 WARN  ~ 
+17 Oct 2011 15:30:34,247 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:30:43,519 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:30:43,524 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:30:43,527 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:30:43,529 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:30:43,692 WARN  ~ 
+17 Oct 2011 15:30:43,692 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:43,692 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:43,692 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:43,695 WARN  ~ 
+17 Oct 2011 15:30:43,695 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@c0bea2' disabled the plugin 'play.jobs.JobsPlugin@1d14966' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:30:43,695 WARN  ~ 
+17 Oct 2011 15:30:43,695 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:43,695 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:43,695 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:43,697 WARN  ~ 
+17 Oct 2011 15:30:43,698 WARN  ~ 
+17 Oct 2011 15:30:43,698 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:43,698 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:43,698 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:43,699 WARN  ~ 
+17 Oct 2011 15:30:43,700 WARN  ~ 
+17 Oct 2011 15:30:43,700 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:43,700 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:43,700 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:43,702 WARN  ~ 
+17 Oct 2011 15:30:43,703 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:30:53,558 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:30:53,563 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:30:53,566 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:30:53,568 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:30:53,740 WARN  ~ 
+17 Oct 2011 15:30:53,740 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:53,740 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:53,740 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:53,742 WARN  ~ 
+17 Oct 2011 15:30:53,742 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@735ad7' disabled the plugin 'play.jobs.JobsPlugin@d2479d' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:30:53,742 WARN  ~ 
+17 Oct 2011 15:30:53,742 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:53,743 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:53,743 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:53,745 WARN  ~ 
+17 Oct 2011 15:30:53,745 WARN  ~ 
+17 Oct 2011 15:30:53,745 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:53,745 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:53,745 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:53,747 WARN  ~ 
+17 Oct 2011 15:30:53,747 WARN  ~ 
+17 Oct 2011 15:30:53,747 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:53,747 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:53,748 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:53,749 WARN  ~ 
+17 Oct 2011 15:30:53,750 WARN  ~ 
+17 Oct 2011 15:30:53,750 WARN  ~ Google App Engine module
+17 Oct 2011 15:30:53,750 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:30:53,750 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:30:53,751 WARN  ~ 
+17 Oct 2011 15:30:53,753 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:31:04,268 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:31:04,273 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:31:04,276 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:31:04,279 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:31:04,443 WARN  ~ 
+17 Oct 2011 15:31:04,443 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,443 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,443 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,445 WARN  ~ 
+17 Oct 2011 15:31:04,445 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@735ad7' disabled the plugin 'play.jobs.JobsPlugin@204461' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:31:04,445 WARN  ~ 
+17 Oct 2011 15:31:04,446 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,446 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,446 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,448 WARN  ~ 
+17 Oct 2011 15:31:04,449 WARN  ~ 
+17 Oct 2011 15:31:04,449 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,449 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,449 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,451 WARN  ~ 
+17 Oct 2011 15:31:04,451 WARN  ~ 
+17 Oct 2011 15:31:04,451 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,451 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,451 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,453 WARN  ~ 
+17 Oct 2011 15:31:04,453 WARN  ~ 
+17 Oct 2011 15:31:04,453 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,453 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,453 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,455 WARN  ~ 
+17 Oct 2011 15:31:04,455 WARN  ~ 
+17 Oct 2011 15:31:04,455 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:04,455 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:04,455 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:04,457 WARN  ~ 
+17 Oct 2011 15:31:04,460 WARN  ~ You're running Play! in DEV mode
+17 Oct 2011 15:31:15,075 INFO  ~ Starting C:\Users\MAC\SaiQds\workspace\qds\.
+17 Oct 2011 15:31:15,080 INFO  ~ Module crudsiena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\crudsiena-2.0.2)
+17 Oct 2011 15:31:15,083 INFO  ~ Module gae is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\gae-1.4)
+17 Oct 2011 15:31:15,085 INFO  ~ Module siena is available (C:\Users\MAC\SaiQds\play-1.2.3\modules\siena-2.0.5)
+17 Oct 2011 15:31:15,250 WARN  ~ 
+17 Oct 2011 15:31:15,250 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,250 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,250 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,253 WARN  ~ 
+17 Oct 2011 15:31:15,253 INFO  ~ Detected that plugin 'play.modules.gae.GAEPlugin@735ad7' disabled the plugin 'play.jobs.JobsPlugin@1798075' the old way - should use Play.disablePlugin()
+17 Oct 2011 15:31:15,253 WARN  ~ 
+17 Oct 2011 15:31:15,253 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,253 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,253 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,255 WARN  ~ 
+17 Oct 2011 15:31:15,255 WARN  ~ 
+17 Oct 2011 15:31:15,256 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,256 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,256 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,257 WARN  ~ 
+17 Oct 2011 15:31:15,257 WARN  ~ 
+17 Oct 2011 15:31:15,257 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,258 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,258 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,259 WARN  ~ 
+17 Oct 2011 15:31:15,259 WARN  ~ 
+17 Oct 2011 15:31:15,260 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,260 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,260 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,262 WARN  ~ 
+17 Oct 2011 15:31:15,262 WARN  ~ 
+17 Oct 2011 15:31:15,262 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,262 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,262 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,264 WARN  ~ 
+17 Oct 2011 15:31:15,265 WARN  ~ 
+17 Oct 2011 15:31:15,265 WARN  ~ Google App Engine module
+17 Oct 2011 15:31:15,265 WARN  ~ ~~~~~~~~~~~~~~~~~~~~~~~
+17 Oct 2011 15:31:15,265 WARN  ~ No Google App Engine environment found. Setting up a development environement
+17 Oct 2011 15:31:15,266 WARN  ~ 
+17 Oct 2011 15:31:15,270 WARN  ~ You're running Play! in DEV mode

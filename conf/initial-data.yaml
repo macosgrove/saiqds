@@ -1,0 +1,10 @@
+Singer(mac):
+	saiNum: 144506
+	firstName: Mary-Anne
+	lastName: Cosgrove
+	isAvailable: true
+	description: I am the Quartet coordinator for the Australian Region, and am looking for a quartet in Sydney.
+	myQuartets: [coos]
+	
+Quartet(coos):
+	description: A comedy quartet
