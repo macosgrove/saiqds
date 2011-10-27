@@ -13,7 +13,7 @@ public class Application extends Controller {
 
     public static void index() {
     	//render(RandomTestData.createRandomTestSinger());
-    	render("Hi there!");
+    	render();
     }
     
     public static void sayHello(@Required String myName) {
