@@ -4,18 +4,41 @@
     <head>
         <title>#{get 'title' /}</title>
         <meta charset=utf-8>
+        
+        <link rel="stylesheet" href="public/stylesheets/foundation.css">
+		<link rel="stylesheet" href="public/stylesheets/app.css">
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" href="public/stylesheets/ie.css">
+		<![endif]-->
 		<link rel="stylesheet/less" href="@{'/public/international/main.less'}" type="text/css" />
 		<script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
         #{get 'moreStyles' /}
+        
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+        
         <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset=utf-8></script>
         #{get 'moreScripts' /}
+        <!-- IE Fix for HTML5 Tags -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
     </head>
 	<body>
-		<div id="pagewidth" >
-			<div id="banner"><h1 id="sitetitle">Quartet Builder</h1></div>
-	    		#{doLayout /}
-			<div id="footer">eeeek eeeekeeeekeeeekeeeekeeeekeeeekeeeek</div>
+		<div class="container">
+			<div class="row">
+				<div class="one">
+					<h1 id="sitetitle">Quartet Builder</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="one columns">menu</div>
+				<div class="four columns">#{doLayout /}</div>
+			</div>
+			<div class="row">
+				<div class="one">
+					<div id="footer">eeeek eeeekeeeekeeeekeeeekeeeekeeeekeeeek</div>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
