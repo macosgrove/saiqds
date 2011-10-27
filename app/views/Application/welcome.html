@@ -1,0 +1,13 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+#{if flash.error}
+    <p style="color:#c00">
+        ${flash.error}
+    </p>
+#{/if}
+<h1>Welcome</h1>
+<p>
+    Please complete your profile to get started.
+    <a href="@{Profile.showProfile("region34","123456")}">Open my profile</a>
+</p> 

@@ -14,7 +14,9 @@ public class TestDataReading extends UnitTest{
 	public void testReadSingers() {
 		List<Singer> singers = Singer.all().fetch(10); 
 		for(Singer s: singers) {
-			LogGateway.debug("Read singer: "+s.toString());
+			if (s!=null) {
+				LogGateway.debug("Read singer: "+s.toString());
+			}
 		}
 	}
 

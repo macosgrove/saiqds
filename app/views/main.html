@@ -4,16 +4,18 @@
     <head>
         <title>#{get 'title' /}</title>
         <meta charset=utf-8>
-        <link rel="stylesheet" media="screen" href="@{'/public/stylesheets/main.css'}">
+		<link rel="stylesheet/less" href="@{'/public/international/main.less'}" type="text/css" />
+		<script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script>
         #{get 'moreStyles' /}
         <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
         <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}" type="text/javascript" charset=utf-8></script>
         #{get 'moreScripts' /}
     </head>
 	<body>
-	    The Hello world app.
-	    <hr/>
-	    
-	    #{doLayout /}
+		<div id="pagewidth" >
+			<div id="banner"><h1 id="sitetitle">Quartet Builder</h1></div>
+	    		#{doLayout /}
+			<div id="footer">eeeek eeeekeeeekeeeekeeeekeeeekeeeekeeeek</div>
+		</div>
 	</body>
 </html>

@@ -15,6 +15,8 @@ import siena.Generator;
 import siena.Id;
 import siena.Model;
 import siena.Query;
+import siena.core.Many;
+import siena.core.Owned;
 import models.enums.VoicePart;
 import models.exceptions.RoleIsFilledException;
 
@@ -22,25 +24,26 @@ public class Quartet extends SaiEntity {
 
 	@Id(Generator.AUTO_INCREMENT)
 	protected Long id;
-	@Filter("quartet")
-	protected Query<Role> roleQuery;	
+	@Owned(mappedBy="quartet")
+	protected Many<Role> roles;	
 	protected String name;
 	protected Singer admin; //not nullable
 	
-	protected transient Set<Role> roles = new HashSet<Role>();
-	
 	public static Quartet findById(Long id) {
 		Quartet q = Quartet.all().filter("id", id).get();
-		q.fetchRoles();
 		return q;
 	}
 	
-	private void fetchRoles() {
-		for (Role r: roleQuery.fetch()) {
-			roles.add(r);
-		}
+	public static List<Quartet> findByName(String name) {
+		List<Quartet> qs = Quartet.all().filter("name", name).fetch();
+		return qs;
 	}
 
+	@SuppressWarnings("unused")
+	private Quartet() {
+		//Need a no-arg constructor for siena's reflective construction
+	}
+		
 	public  Quartet(Singer admin, VoicePart part) throws RoleIsFilledException {
 		this.name = "Unnamed Quartet";
 		this.admin = admin;
@@ -52,7 +55,7 @@ public class Quartet extends SaiEntity {
 			throw new RoleIsFilledException(part, this);
 		}
 		Role role = new Role(singer, this, part);
-		roles.add(role);
+		roles.asList().add(role);
 	}
 
 	public Singer findSinger(VoicePart part) {
@@ -61,12 +64,12 @@ public class Quartet extends SaiEntity {
 	}
 	
 	public Boolean getIsComplete() {
-		return roleQuery.count()==4;
+		return roles.asList().size()==4;
 	}
 	
 	protected Singer getSinger(VoicePart part) {
 		Singer singer = null;
-		Query<Role> partRoles = roleQuery.filter("part", part.getValue());
+		Query<Role> partRoles = roles.asQuery().filter("part", part.getValue());
 		assert partRoles.count() <= 1;
 		Role r = partRoles.get();
 		if (r != null) {
@@ -93,14 +96,22 @@ public class Quartet extends SaiEntity {
 		StringBuffer result = new StringBuffer(name);
 		result.append(" (");
 		boolean first = true;
-		for (Role r : roleQuery.fetch()) {
+		for (Role r : roles.asList()) {
 			if (!first) {
 				result.append(", ");
 			}
 			first = false;
-			result.append(r.getSinger().getFullName());
+			if (r.getSinger()!=null) {
+				result.append(r.getSinger().getFullName());
+			} else {
+				result.append("No singer!");
+			}
 			result.append(" - ");
-			result.append(r.getVoicePart().getName()	);
+			if (r.getVoicePart()!=null) {
+				result.append(r.getVoicePart().getName()	);
+			} else {
+				result.append("No voice part!");
+			}
 		}
 		result.append(")");
 		return result.toString();
@@ -116,7 +127,7 @@ public class Quartet extends SaiEntity {
 
 	public Set<Singer> getSingers() {
 		Set<Singer> singers = new HashSet<Singer>();
-		for (Role r: roles) {
+		for (Role r: roles.asList()) {
 			singers.add(r.getSinger());
 		}
 		return singers;
@@ -125,5 +136,6 @@ public class Quartet extends SaiEntity {
 	public static Query<Quartet> all() {
 		return Model.all(Quartet.class);
 	}
+
 
 }

@@ -12,7 +12,8 @@ import models.*;
 public class Application extends Controller {
 
     public static void index() {
-        render(RandomTestData.createRandomTestSinger());
+    	//render(RandomTestData.createRandomTestSinger());
+    	render("Hi there!");
     }
     
     public static void sayHello(@Required String myName) {
@@ -22,6 +23,10 @@ public class Application extends Controller {
         }
         LogGateway.debug("Hello "+myName);
     	render(myName);
+    }
+    
+    public static void welcome(Singer singer) {
+    	render(singer);
     }
 
 }

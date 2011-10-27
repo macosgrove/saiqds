@@ -5,6 +5,10 @@
 # Home page
 GET     /                                       Application.index
 GET     /hello                                  Application.sayHello
+GET		/welcome								Application.welcome
+
+# Singer's profile pages
+GET		/{region}/profile/{saiNum}				Profile.showProfile
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

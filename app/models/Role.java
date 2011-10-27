@@ -7,14 +7,17 @@ import utilities.LogGateway;
 public class Role extends Model {
 	
 	@Id(Generator.AUTO_INCREMENT)
-	protected Long id;
+	public Long id;
 	@Column("singer") @NotNull @Index("singer_index")
-	protected Singer singer;
-	@Column("quartet") @NotNull @Index("quartet_index")
-	protected Quartet quartet;
+	public Singer singer;
+	public Quartet quartet;
 	@Column("part_value") @NotNull
-	protected Long part;
+	public Long part;
 	
+	@SuppressWarnings("unused")
+	private Role() {
+		//Need a no-arg constructor for siena's reflective construction
+	}
 	public Role(Singer singer, Quartet quartet, VoicePart part) {
 		if (singer==null) {
 			LogGateway.debug("Null singer for new role");
@@ -51,7 +54,11 @@ public class Role extends Model {
 	
 	@Override
 	public String toString() {
-		return singer.getFullName() + " sings " + getVoicePart().getName() + " for " + quartet.getName();
+		StringBuffer result = new StringBuffer();
+		result.append(singer==null?"No singer sings ":singer.getFullName() + " sings ");
+		result.append(getVoicePart()==null?"unknown part":getVoicePart().getName());
+		result.append(quartet==null?" for unknown quartet":" for " + quartet.getName());
+		return  result.toString();
 	}
 
 }

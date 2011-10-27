@@ -40,6 +40,11 @@ public class Singer extends SaiEntity {
 	
 //	@Index("locality_index")
 //	protected Locality locality;
+	
+	@SuppressWarnings("unused")
+	private Singer() {
+		//Need a no-arg constructor for siena's reflective construction
+	}
 		
 	public Singer(String saiNum) {
 		voiceParts = new ArrayList<Long>();
@@ -49,6 +54,7 @@ public class Singer extends SaiEntity {
 	@Override
 	public String toString() {
 		StringBuffer result = new StringBuffer(getFullName());
+		result.append(" ["+saiNum+"]");
 		result.append(" (");
 		boolean first = true;
 		for (VoicePart p : getVoiceParts()) {
@@ -56,7 +62,7 @@ public class Singer extends SaiEntity {
 				result.append(", ");
 			}
 			first = false;
-			result.append(p.getName());			
+			result.append(p==null?"[no part]":p.getName());			
 		}
 		result.append(")");
 		return result.toString();
